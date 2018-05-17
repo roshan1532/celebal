@@ -31,9 +31,7 @@ import java.util.*;
 
 		// Checking if an element is included to the list
 		boolean element = list.contains("Item5");
-		System.out
-				.println("Checking if the arraylist contains the object Item5: "
-						+ element);
+		System.out.println("Checking if the arraylist contains the object Item5: "+ element);
 
 		// Getting the element in a specific position
 		String item = list.get(0);
@@ -42,8 +40,7 @@ import java.util.*;
 		// Retrieve elements from the arraylist
 
 		// 1st way: loop using index and size list
-		System.out
-				.println("Retrieving items with loop using index and size list");
+		System.out.println("Retrieving items with loop using index and size list");
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println("Index: " + i + " - Item: " + list.get(i));
 		}
@@ -77,8 +74,6 @@ import java.util.*;
 
 		// Converting ArrayList to Array
 		String[] simpleArray = list.toArray(new String[list.size()]);
-		System.out
-				.println("The array created after the conversion of our arraylist is: "
-						+ Arrays.toString(simpleArray));
+		System.out.println("The array created after the conversion of our arraylist is: "+ Arrays.toString(simpleArray));
 	}
 }
